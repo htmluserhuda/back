@@ -38,8 +38,9 @@ class _CounterItemState extends State<CounterItem> {
           width: 20,
         ),
         Container(
+          
           height: MediaQuery.of(context).size.height * 0.11,
-          width: MediaQuery.of(context).size.width * 0.6,
+          width: MediaQuery.of(context).size.width * 0.65,
           decoration: BoxDecoration(
               color: widget.counterItemModel.color,
               borderRadius: BorderRadius.circular(20)),
@@ -48,6 +49,7 @@ class _CounterItemState extends State<CounterItem> {
             child: Text(
               widget.counterItemModel.text,
               style: TextStyle(
+                
                 fontSize: 40,
               ),
             ),
